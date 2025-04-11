@@ -1,0 +1,20 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/D_ff_sim.v,1729395145,verilog,,,,D_ff_sim,,,,,,,,
+C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/D_latch_sim.v,1729394621,verilog,,,,D_latch_sim,,,,,,,,
+C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/FSM_sim.v,1729399351,verilog,,,,FSM_sim,,,,,,,,
+C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/SR_latch_sim.v,1729381396,verilog,,,,SR_latch_sim,,,,,,,,
+C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/counter74x161_sim.v,1729397594,verilog,,,,counter74x161_sim,,,,,,,,
+C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/register_sim.v,1729396517,verilog,,,,register_sim,,,,,,,,
+C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/shift_register_sim.v,1729396787,verilog,,,,shift_register_sim,,,,,,,,
+C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/D_ff.v,1729395252,verilog,,C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/D_ff_sim.v,,D_ff,,,,,,,,
+C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/D_latch.v,1729394492,verilog,,C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/D_latch_sim.v,,D_latch,,,,,,,,
+C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/FSM_case.v,1729397900,verilog,,C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/FSM_cf.v,,FSM_case,,,,,,,,
+C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/FSM_cf.v,1729398119,verilog,,C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/FSM_sim.v,,FSM_cf,,,,,,,,
+C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/SR_latch.v,1729381570,verilog,,C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/SR_latch_sim.v,,SR_latch,,,,,,,,
+C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/counter74x161.v,1729397166,verilog,,C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/counter74x161_sim.v,,counter74x161,,,,,,,,
+C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/register.v,1729395409,verilog,,C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/register_sim.v,,register,,,,,,,,
+C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/shift_register.v,1729396009,verilog,,C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/shift_register_sim.v,,shift_register,,,,,,,,

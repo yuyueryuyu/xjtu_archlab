@@ -1,0 +1,42 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx2019/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto f1795959e9ee4683ab0147d6093c81ff --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_sim_behav xil_defaultlib.CPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'Q' [C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/CPU_Datapath.v:165]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 32 for port 'Q' [C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/CPU_Datapath.v:166]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'Q' [C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/CPU_Datapath.v:167]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'Q' [C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/CPU_Datapath.v:168]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'Q' [C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/CPU_Datapath.v:169]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 32 for port 'Q' [C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/CPU_Datapath.v:170]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'Q' [C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/CPU_Datapath.v:171]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'Q' [C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/CPU_Datapath.v:172]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 32 for port 'Q' [C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/CPU_Datapath.v:173]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'Q' [C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/CPU_Datapath.v:225]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'Q' [C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/CPU_Datapath.v:226]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'Q' [C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/CPU_Datapath.v:227]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 32 for port 'Q' [C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/CPU_Datapath.v:228]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'Q' [C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/CPU_Datapath.v:244]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 32 for port 'Q' [C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/CPU_Datapath.v:245]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.IMem
+Compiling module xil_defaultlib.Register
+Compiling module xil_defaultlib.MainDsc
+Compiling module xil_defaultlib.ControlLogic_ID
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.MainDsc_EX
+Compiling module xil_defaultlib.ControlLogic_EX
+Compiling module xil_defaultlib.BranchComp
+Compiling module xil_defaultlib.FourWaySACache
+Compiling module xil_defaultlib.RAM_4Kx32_default
+Compiling module xil_defaultlib.DMem
+Compiling module xil_defaultlib.CPU_Datapath
+Compiling module xil_defaultlib.CPU_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CPU_sim_behav

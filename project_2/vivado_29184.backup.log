@@ -1,0 +1,1774 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sat Oct 19 15:39:17 2024
+# Process ID: 29184
+# Current directory: C:/XJTU COMPARCH/project_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15016 C:\XJTU COMPARCH\project_2\project_2.xpr
+# Log file: C:/XJTU COMPARCH/project_2/vivado.log
+# Journal file: C:/XJTU COMPARCH/project_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/XJTU COMPARCH/project_2/project_2.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx2019/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 782.566 ; gain = 101.789
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xa7a12tcsg325-2I
+Top: SR_latch
+INFO: [Device 21-403] Loading part xa7a12tcsg325-2I
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 1231.145 ; gain = 228.219
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'SR_latch' [C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/SR_latch.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'SR_latch' (1#1) [C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/SR_latch.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1304.699 ; gain = 301.773
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1304.699 ; gain = 301.773
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1304.699 ; gain = 301.773
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1304.699 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1321.750 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1478.555 ; gain = 475.629
+6 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 1478.555 ; gain = 681.258
+close_design
+close [ open {C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/D_latch.v} w ]
+add_files {{C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/D_latch.v}}
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xa7a12tcsg325-2I
+Top: SR_latch
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 1478.555 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'SR_latch' [C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/SR_latch.v:23]
+WARNING: [Synth 8-567] referenced signal 'Q' should be on the sensitivity list [C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/SR_latch.v:28]
+WARNING: [Synth 8-567] referenced signal 'QN' should be on the sensitivity list [C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/SR_latch.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'SR_latch' (1#1) [C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/SR_latch.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 1478.555 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 1478.555 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 1478.555 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1478.555 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1478.555 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1478.555 ; gain = 0.000
+5 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1478.555 ; gain = 0.000
+close_design
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xa7a12tcsg325-2I
+Top: SR_latch
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1478.555 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'SR_latch' [C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/SR_latch.v:23]
+WARNING: [Synth 8-567] referenced signal 'Q' should be on the sensitivity list [C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/SR_latch.v:28]
+WARNING: [Synth 8-567] referenced signal 'QN' should be on the sensitivity list [C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/SR_latch.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'SR_latch' (1#1) [C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/SR_latch.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 1478.555 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 1478.555 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 1478.555 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1478.555 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1488.258 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1488.258 ; gain = 9.703
+5 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1488.258 ; gain = 9.703
+close_design
+file mkdir C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new
+file mkdir C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new
+file mkdir C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new
+file mkdir C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new
+file mkdir C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new
+file mkdir {C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new}
+close [ open {C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/SR_latch_sim.v} w ]
+add_files -fileset sim_1 {{C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/SR_latch_sim.v}}
+update_compile_order -fileset sim_1
+set_property top SR_latch_sim [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'SR_latch_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj SR_latch_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/SR_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SR_latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/SR_latch_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SR_latch_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SR_latch_sim_behav xil_defaultlib.SR_latch_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx2019/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SR_latch_sim_behav xil_defaultlib.SR_latch_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SR_latch
+Compiling module xil_defaultlib.SR_latch_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SR_latch_sim_behav
+
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/XJTU -notrace
+couldn't read file "C:/XJTU": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sat Oct 19 15:54:44 2024...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1488.258 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SR_latch_sim_behav -key {Behavioral:sim_1:Functional:SR_latch_sim} -tclbatch {SR_latch_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source SR_latch_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SR_latch_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 1488.258 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'SR_latch_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj SR_latch_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/SR_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SR_latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/SR_latch_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SR_latch_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SR_latch_sim_behav xil_defaultlib.SR_latch_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx2019/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SR_latch_sim_behav xil_defaultlib.SR_latch_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SR_latch
+Compiling module xil_defaultlib.SR_latch_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SR_latch_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SR_latch_sim_behav -key {Behavioral:sim_1:Functional:SR_latch_sim} -tclbatch {SR_latch_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source SR_latch_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SR_latch_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1488.258 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'SR_latch_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj SR_latch_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/SR_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SR_latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/SR_latch_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SR_latch_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SR_latch_sim_behav xil_defaultlib.SR_latch_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx2019/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SR_latch_sim_behav xil_defaultlib.SR_latch_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SR_latch
+Compiling module xil_defaultlib.SR_latch_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SR_latch_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SR_latch_sim_behav -key {Behavioral:sim_1:Functional:SR_latch_sim} -tclbatch {SR_latch_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source SR_latch_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SR_latch_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1488.258 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'SR_latch_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj SR_latch_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/SR_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SR_latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/SR_latch_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SR_latch_sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SR_latch_sim_behav xil_defaultlib.SR_latch_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx2019/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SR_latch_sim_behav xil_defaultlib.SR_latch_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SR_latch
+Compiling module xil_defaultlib.SR_latch_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SR_latch_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SR_latch_sim_behav -key {Behavioral:sim_1:Functional:SR_latch_sim} -tclbatch {SR_latch_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source SR_latch_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SR_latch_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1488.258 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'SR_latch_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj SR_latch_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/SR_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SR_latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/SR_latch_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SR_latch_sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SR_latch_sim_behav xil_defaultlib.SR_latch_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx2019/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SR_latch_sim_behav xil_defaultlib.SR_latch_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SR_latch
+Compiling module xil_defaultlib.SR_latch_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SR_latch_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SR_latch_sim_behav -key {Behavioral:sim_1:Functional:SR_latch_sim} -tclbatch {SR_latch_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source SR_latch_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SR_latch_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1488.258 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'SR_latch_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj SR_latch_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/SR_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SR_latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/SR_latch_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SR_latch_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SR_latch_sim_behav xil_defaultlib.SR_latch_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx2019/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SR_latch_sim_behav xil_defaultlib.SR_latch_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SR_latch
+Compiling module xil_defaultlib.SR_latch_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SR_latch_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SR_latch_sim_behav -key {Behavioral:sim_1:Functional:SR_latch_sim} -tclbatch {SR_latch_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source SR_latch_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SR_latch_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1488.258 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'SR_latch_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj SR_latch_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/SR_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SR_latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/SR_latch_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SR_latch_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SR_latch_sim_behav xil_defaultlib.SR_latch_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx2019/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SR_latch_sim_behav xil_defaultlib.SR_latch_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SR_latch
+Compiling module xil_defaultlib.SR_latch_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SR_latch_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SR_latch_sim_behav -key {Behavioral:sim_1:Functional:SR_latch_sim} -tclbatch {SR_latch_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source SR_latch_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SR_latch_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1488.258 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'SR_latch_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj SR_latch_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/SR_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SR_latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/SR_latch_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SR_latch_sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SR_latch_sim_behav xil_defaultlib.SR_latch_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx2019/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SR_latch_sim_behav xil_defaultlib.SR_latch_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SR_latch
+Compiling module xil_defaultlib.SR_latch_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SR_latch_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SR_latch_sim_behav -key {Behavioral:sim_1:Functional:SR_latch_sim} -tclbatch {SR_latch_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source SR_latch_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SR_latch_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1488.258 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/D_latch_sim.v} w ]
+add_files -fileset sim_1 {{C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/D_latch_sim.v}}
+update_compile_order -fileset sim_1
+set_property top D_latch_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+set_property top D_latch [current_fileset]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'D_latch_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj D_latch_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/D_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/D_latch_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_latch_sim
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot D_latch_sim_behav xil_defaultlib.D_latch_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx2019/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot D_latch_sim_behav xil_defaultlib.D_latch_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2991] 'D' is not declared under prefix 'RST' [C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/D_latch.v:30]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1488.258 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'D_latch_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj D_latch_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/D_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/D_latch_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_latch_sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot D_latch_sim_behav xil_defaultlib.D_latch_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx2019/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot D_latch_sim_behav xil_defaultlib.D_latch_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2991] 'D' is not declared under prefix 'RST' [C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/D_latch.v:30]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'D_latch_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj D_latch_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/D_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/D_latch_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_latch_sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot D_latch_sim_behav xil_defaultlib.D_latch_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx2019/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot D_latch_sim_behav xil_defaultlib.D_latch_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2991] 'D' is not declared under prefix 'RST' [C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/D_latch.v:30]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'D_latch_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj D_latch_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/D_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/D_latch_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_latch_sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot D_latch_sim_behav xil_defaultlib.D_latch_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx2019/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot D_latch_sim_behav xil_defaultlib.D_latch_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2991] 'D' is not declared under prefix 'RST' [C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/D_latch.v:30]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'D_latch_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj D_latch_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/D_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/D_latch_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_latch_sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot D_latch_sim_behav xil_defaultlib.D_latch_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx2019/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot D_latch_sim_behav xil_defaultlib.D_latch_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.D_latch
+Compiling module xil_defaultlib.D_latch_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot D_latch_sim_behav
+
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/XJTU -notrace
+couldn't read file "C:/XJTU": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sat Oct 19 20:21:46 2024...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1488.258 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '9' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "D_latch_sim_behav -key {Behavioral:sim_1:Functional:D_latch_sim} -tclbatch {D_latch_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source D_latch_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'D_latch_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 1488.258 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'D_latch_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj D_latch_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/D_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/D_latch_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_latch_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot D_latch_sim_behav xil_defaultlib.D_latch_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx2019/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot D_latch_sim_behav xil_defaultlib.D_latch_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.D_latch
+Compiling module xil_defaultlib.D_latch_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot D_latch_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "D_latch_sim_behav -key {Behavioral:sim_1:Functional:D_latch_sim} -tclbatch {D_latch_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source D_latch_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'D_latch_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1488.258 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'D_latch_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj D_latch_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/D_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/D_latch_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_latch_sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot D_latch_sim_behav xil_defaultlib.D_latch_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx2019/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot D_latch_sim_behav xil_defaultlib.D_latch_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.D_latch
+Compiling module xil_defaultlib.D_latch_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot D_latch_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "D_latch_sim_behav -key {Behavioral:sim_1:Functional:D_latch_sim} -tclbatch {D_latch_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source D_latch_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'D_latch_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1488.258 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close [ open {C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/D_ff.v} w ]
+add_files {{C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/D_ff.v}}
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/D_ff_sim.v} w ]
+add_files -fileset sim_1 {{C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/D_ff_sim.v}}
+update_compile_order -fileset sim_1
+set_property top D_ff_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+set_property top D_ff [current_fileset]
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'D_ff_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj D_ff_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/D_ff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_ff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/D_ff_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_ff_sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot D_ff_sim_behav xil_defaultlib.D_ff_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx2019/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot D_ff_sim_behav xil_defaultlib.D_ff_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.D_ff
+Compiling module xil_defaultlib.D_ff_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot D_ff_sim_behav
+
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/XJTU -notrace
+couldn't read file "C:/XJTU": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sat Oct 19 20:32:47 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "D_ff_sim_behav -key {Behavioral:sim_1:Functional:D_ff_sim} -tclbatch {D_ff_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source D_ff_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'D_ff_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1488.258 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'D_ff_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj D_ff_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/D_ff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_ff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/D_ff_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_ff_sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot D_ff_sim_behav xil_defaultlib.D_ff_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx2019/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot D_ff_sim_behav xil_defaultlib.D_ff_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.D_ff
+Compiling module xil_defaultlib.D_ff_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot D_ff_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "D_ff_sim_behav -key {Behavioral:sim_1:Functional:D_ff_sim} -tclbatch {D_ff_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source D_ff_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'D_ff_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1488.258 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close [ open {C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/register.v} w ]
+add_files {{C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/register.v}}
+update_compile_order -fileset sources_1
+set_property top register [current_fileset]
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/register_sim.v} w ]
+add_files -fileset sim_1 {{C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/register_sim.v}}
+update_compile_order -fileset sim_1
+set_property top register_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'register_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj register_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/register_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_sim
+WARNING: [VRFC 10-965] invalid size of integer constant literal [C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/register_sim.v:30]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot register_sim_behav xil_defaultlib.register_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx2019/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot register_sim_behav xil_defaultlib.register_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.register
+Compiling module xil_defaultlib.register_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot register_sim_behav
+
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/XJTU -notrace
+couldn't read file "C:/XJTU": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sat Oct 19 20:40:40 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "register_sim_behav -key {Behavioral:sim_1:Functional:register_sim} -tclbatch {register_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source register_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'register_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1488.258 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close [ open {C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/shift_register.v} w ]
+add_files {{C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/shift_register.v}}
+update_compile_order -fileset sources_1
+set_property top shift_register [current_fileset]
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/shift_register_sim.v} w ]
+add_files -fileset sim_1 {{C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/shift_register_sim.v}}
+update_compile_order -fileset sim_1
+set_property top shift_register_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'shift_register_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj shift_register_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/shift_register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/shift_register_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_register_sim
+WARNING: [VRFC 10-986] literal value truncated to fit in 2 bits [C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/shift_register_sim.v:32]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot shift_register_sim_behav xil_defaultlib.shift_register_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx2019/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot shift_register_sim_behav xil_defaultlib.shift_register_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.shift_register
+Compiling module xil_defaultlib.shift_register_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot shift_register_sim_behav
+
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/XJTU -notrace
+couldn't read file "C:/XJTU": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sat Oct 19 20:53:39 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "shift_register_sim_behav -key {Behavioral:sim_1:Functional:shift_register_sim} -tclbatch {shift_register_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source shift_register_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'shift_register_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1488.258 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'shift_register_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj shift_register_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/shift_register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/shift_register_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_register_sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot shift_register_sim_behav xil_defaultlib.shift_register_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx2019/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot shift_register_sim_behav xil_defaultlib.shift_register_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.shift_register
+Compiling module xil_defaultlib.shift_register_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot shift_register_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "shift_register_sim_behav -key {Behavioral:sim_1:Functional:shift_register_sim} -tclbatch {shift_register_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source shift_register_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'shift_register_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1488.258 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'shift_register_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj shift_register_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/shift_register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/shift_register_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_register_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot shift_register_sim_behav xil_defaultlib.shift_register_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx2019/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot shift_register_sim_behav xil_defaultlib.shift_register_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.shift_register
+Compiling module xil_defaultlib.shift_register_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot shift_register_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "shift_register_sim_behav -key {Behavioral:sim_1:Functional:shift_register_sim} -tclbatch {shift_register_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source shift_register_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'shift_register_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1488.258 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close [ open {C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/counter74x161.v} w ]
+add_files {{C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/counter74x161.v}}
+update_compile_order -fileset sources_1
+set_property top counter74x161 [current_fileset]
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/counter74x161_sim.v} w ]
+add_files -fileset sim_1 {{C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/counter74x161_sim.v}}
+update_compile_order -fileset sim_1
+set_property top counter74x161_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'counter74x161_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj counter74x161_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/counter74x161.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter74x161
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/counter74x161_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter74x161_sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot counter74x161_sim_behav xil_defaultlib.counter74x161_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx2019/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot counter74x161_sim_behav xil_defaultlib.counter74x161_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.counter74x161
+Compiling module xil_defaultlib.counter74x161_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot counter74x161_sim_behav
+
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/XJTU -notrace
+couldn't read file "C:/XJTU": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sat Oct 19 21:12:23 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "counter74x161_sim_behav -key {Behavioral:sim_1:Functional:counter74x161_sim} -tclbatch {counter74x161_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source counter74x161_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'counter74x161_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1652.652 ; gain = 0.684
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'counter74x161_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj counter74x161_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/counter74x161.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter74x161
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/counter74x161_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter74x161_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot counter74x161_sim_behav xil_defaultlib.counter74x161_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx2019/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot counter74x161_sim_behav xil_defaultlib.counter74x161_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.counter74x161
+Compiling module xil_defaultlib.counter74x161_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot counter74x161_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "counter74x161_sim_behav -key {Behavioral:sim_1:Functional:counter74x161_sim} -tclbatch {counter74x161_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source counter74x161_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'counter74x161_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1652.844 ; gain = 0.191
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+ERROR: [Vivado 12-106] *** Exception: java.lang.IndexOutOfBoundsException: Index -1 out-of-bounds for length 1 (See C:/XJTU COMPARCH/project_2/vivado_pid29184.debug)
+close [ open {C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/FSM_case.v} w ]
+add_files {{C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/FSM_case.v}}
+update_compile_order -fileset sources_1
+set_property top FSM_case [current_fileset]
+update_compile_order -fileset sources_1
+close [ open {C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/FSM_cf.v} w ]
+add_files {{C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/FSM_cf.v}}
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/FSM_sim.v} w ]
+add_files -fileset sim_1 {{C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/FSM_sim.v}}
+update_compile_order -fileset sim_1
+set_property top FSM_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'FSM_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj FSM_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/FSM_case.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FSM_case
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/FSM_cf.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FSM_cf
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/FSM_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FSM_sim
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot FSM_sim_behav xil_defaultlib.FSM_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx2019/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot FSM_sim_behav xil_defaultlib.FSM_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.FSM_case
+Compiling module xil_defaultlib.FSM_cf
+Compiling module xil_defaultlib.FSM_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot FSM_sim_behav
+
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/XJTU -notrace
+couldn't read file "C:/XJTU": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sat Oct 19 21:28:43 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "FSM_sim_behav -key {Behavioral:sim_1:Functional:FSM_sim} -tclbatch {FSM_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source FSM_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'FSM_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1788.789 ; gain = 2.383
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'FSM_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj FSM_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/FSM_case.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FSM_case
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/FSM_cf.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FSM_cf
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/FSM_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FSM_sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot FSM_sim_behav xil_defaultlib.FSM_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx2019/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot FSM_sim_behav xil_defaultlib.FSM_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 1 for port 'y' [C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/FSM_sim.v:27]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'y' [C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/FSM_sim.v:28]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.FSM_case
+Compiling module xil_defaultlib.FSM_cf
+Compiling module xil_defaultlib.FSM_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot FSM_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "FSM_sim_behav -key {Behavioral:sim_1:Functional:FSM_sim} -tclbatch {FSM_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source FSM_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'FSM_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1788.789 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'FSM_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj FSM_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/FSM_case.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FSM_case
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/FSM_cf.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FSM_cf
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/FSM_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FSM_sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot FSM_sim_behav xil_defaultlib.FSM_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx2019/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot FSM_sim_behav xil_defaultlib.FSM_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.FSM_case
+Compiling module xil_defaultlib.FSM_cf
+Compiling module xil_defaultlib.FSM_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot FSM_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "FSM_sim_behav -key {Behavioral:sim_1:Functional:FSM_sim} -tclbatch {FSM_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source FSM_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'FSM_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1788.789 ; gain = 0.000
+current_wave_config {Untitled 22}
+Untitled 22
+add_wave {{/FSM_sim/FSM_cf_1/state}} 
+current_wave_config {Untitled 22}
+Untitled 22
+add_wave {{/FSM_sim/FSM_cf_1/nextstate}} 
+current_wave_config {Untitled 22}
+Untitled 22
+add_wave {{/FSM_sim/FSM_case_1/state}} 
+current_wave_config {Untitled 22}
+Untitled 22
+add_wave {{/FSM_sim/FSM_case_1/nextstate}} 
+current_wave_config {Untitled 22}
+Untitled 22
+log_wave {/FSM_sim/FSM_case_1/state} 
+run 10 us
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 10 us
+save_wave_config {C:/XJTU COMPARCH/project_2/FSM_sim_behav.wcfg}
+add_files -fileset sim_1 -norecurse {{C:/XJTU COMPARCH/project_2/FSM_sim_behav.wcfg}}
+set_property xsim.view {{C:/XJTU COMPARCH/project_2/FSM_sim_behav.wcfg}} [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'FSM_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj FSM_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/FSM_case.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FSM_case
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sources_1/new/FSM_cf.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FSM_cf
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_2/project_2.srcs/sim_1/new/FSM_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FSM_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+"xelab -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot FSM_sim_behav xil_defaultlib.FSM_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx2019/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto bab6b4f836d240979502b85137556847 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot FSM_sim_behav xil_defaultlib.FSM_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.FSM_case
+Compiling module xil_defaultlib.FSM_cf
+Compiling module xil_defaultlib.FSM_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot FSM_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/XJTU COMPARCH/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "FSM_sim_behav -key {Behavioral:sim_1:Functional:FSM_sim} -tclbatch {FSM_sim.tcl} -view {{C:/XJTU COMPARCH/project_2/FSM_sim_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+open_wave_config {C:/XJTU COMPARCH/project_2/FSM_sim_behav.wcfg}
+source FSM_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'FSM_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1801.203 ; gain = 0.000
+save_wave_config {C:/XJTU COMPARCH/project_2/FSM_sim_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Oct 19 21:45:43 2024...

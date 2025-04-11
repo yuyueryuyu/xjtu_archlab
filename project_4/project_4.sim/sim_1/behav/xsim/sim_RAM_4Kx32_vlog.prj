@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_4.srcs/sources_1/new/Decoder24.v" \
+"../../../../project_4.srcs/sources_1/new/RAM_1Kx16.v" \
+"../../../../project_4.srcs/sources_1/new/RAM_1Kx16_inout.v" \
+"../../../../project_4.srcs/sources_1/new/RAM_4Kx32.v" \
+"../../../../project_4.srcs/sources_1/new/RAM_4Kx32_inout.v" \
+"../../../../project_4.srcs/sim_1/new/sim_RAM_4Kx32.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

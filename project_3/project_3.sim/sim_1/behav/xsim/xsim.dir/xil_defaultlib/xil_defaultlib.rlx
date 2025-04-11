@@ -1,0 +1,22 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/XJTU COMPARCH/project_3/project_3.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/XJTU COMPARCH/project_3/project_3.srcs/sim_1/new/sim_ALU.v,1730229811,verilog,,,,sim_ALU,,,,,,,,
+C:/XJTU COMPARCH/project_3/project_3.srcs/sim_1/new/sim_fulladder_1.v,1730103760,verilog,,,,sim_fulladder_1,,,,,,,,
+C:/XJTU COMPARCH/project_3/project_3.srcs/sim_1/new/sim_fulladder_16.v,1730105284,verilog,,,,sim_fulladder_16,,,,,,,,
+C:/XJTU COMPARCH/project_3/project_3.srcs/sim_1/new/sim_fulladder_32.v,1730105491,verilog,,,,sim_fulladder_32,,,,,,,,
+C:/XJTU COMPARCH/project_3/project_3.srcs/sim_1/new/sim_fulladder_4.v,1730104439,verilog,,,,sim_fulladder_4,,,,,,,,
+C:/XJTU COMPARCH/project_3/project_3.srcs/sources_1/new/ADD.v,1730616451,verilog,,C:/XJTU COMPARCH/project_3/project_3.srcs/sources_1/new/ALU.v,,ADD,,,,,,,,
+C:/XJTU COMPARCH/project_3/project_3.srcs/sources_1/new/ALU.v,1730100006,verilog,,C:/XJTU COMPARCH/project_3/project_3.srcs/sources_1/new/ALU_8.v,,ALU,,,,,,,,
+C:/XJTU COMPARCH/project_3/project_3.srcs/sources_1/new/ALU_8.v,1730614452,verilog,,C:/XJTU COMPARCH/project_3/project_3.srcs/sources_1/new/Decoder38.v,,ALU_8,,,,,,,,
+C:/XJTU COMPARCH/project_3/project_3.srcs/sources_1/new/Decoder38.v,1730229590,verilog,,C:/XJTU COMPARCH/project_3/project_3.srcs/sources_1/new/SLL.v,,Decoder38,,,,,,,,
+C:/XJTU COMPARCH/project_3/project_3.srcs/sources_1/new/SLL.v,1730101321,verilog,,C:/XJTU COMPARCH/project_3/project_3.srcs/sources_1/new/SLT.v,,SLL,,,,,,,,
+C:/XJTU COMPARCH/project_3/project_3.srcs/sources_1/new/SLT.v,1730101309,verilog,,C:/XJTU COMPARCH/project_3/project_3.srcs/sources_1/new/SUB.v,,SLT,,,,,,,,
+C:/XJTU COMPARCH/project_3/project_3.srcs/sources_1/new/SUB.v,1730616014,verilog,,C:/XJTU COMPARCH/project_3/project_3.srcs/sources_1/new/fulladder_lookahead.v,,SUB,,,,,,,,
+C:/XJTU COMPARCH/project_3/project_3.srcs/sources_1/new/fulladder_1.v,1730102040,verilog,,C:/XJTU COMPARCH/project_3/project_3.srcs/sources_1/new/fulladder_16.v,,fulladder_1,,,,,,,,
+C:/XJTU COMPARCH/project_3/project_3.srcs/sources_1/new/fulladder_16.v,1730104190,verilog,,C:/XJTU COMPARCH/project_3/project_3.srcs/sources_1/new/fulladder_4.v,,fulladder_16,,,,,,,,
+C:/XJTU COMPARCH/project_3/project_3.srcs/sources_1/new/fulladder_32.v,1730104202,verilog,,C:/XJTU COMPARCH/project_3/project_3.srcs/sources_1/new/fulladder_4.v,,fulladder_32,,,,,,,,
+C:/XJTU COMPARCH/project_3/project_3.srcs/sources_1/new/fulladder_4.v,1730104173,verilog,,C:/XJTU COMPARCH/project_3/project_3.srcs/sim_1/new/sim_fulladder_16.v,,fulladder_4,,,,,,,,
+C:/XJTU COMPARCH/project_3/project_3.srcs/sources_1/new/fulladder_lookahead.v,1730615545,verilog,,C:/XJTU COMPARCH/project_3/project_3.srcs/sim_1/new/sim_ALU.v,,fulladder_lookahead,,,,,,,,

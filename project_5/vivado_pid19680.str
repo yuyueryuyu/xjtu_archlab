@@ -1,0 +1,1583 @@
+/*
+
+Xilinx Vivado v2019.2 (64-bit) [Major: 2019, Minor: 2]
+SW Build: 2708876 on Wed Nov  6 21:40:23 MST 2019
+IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+
+Process ID (PID): 19680
+License: Customer
+
+Current time: 	Tue Dec 24 10:44:47 PST 2024
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 20
+
+Screen size: 1680x1050
+Screen resolution (DPI): 100
+Available screens: 1
+Available disk space: 104 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx2019/Vivado/2019.2/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx2019/Vivado/2019.2/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	�࿭Խ
+User home directory: C:/Users/�࿭Խ
+User working directory: C:/XJTU COMPARCH/project_5
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: C:/Xilinx2019/Vivado
+HDI_APPROOT: C:/Xilinx2019/Vivado/2019.2
+RDI_DATADIR: C:/Xilinx2019/Vivado/2019.2/data
+RDI_BINDIR: C:/Xilinx2019/Vivado/2019.2/bin
+
+Vivado preferences file location: C:/Users/�࿭Խ/AppData/Roaming/Xilinx/Vivado/2019.2/vivado.xml
+Vivado preferences directory: C:/Users/�࿭Խ/AppData/Roaming/Xilinx/Vivado/2019.2/
+Vivado layouts directory: C:/Users/�࿭Խ/AppData/Roaming/Xilinx/Vivado/2019.2/layouts
+PlanAhead jar file location: 	C:/Xilinx2019/Vivado/2019.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/XJTU COMPARCH/project_5/vivado.log
+Vivado journal file location: 	C:/XJTU COMPARCH/project_5/vivado.jou
+Engine tmp dir: 	C:/XJTU COMPARCH/project_5/.Xil/Vivado-19680-Yu
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx2019/Vivado/2019.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx2019/Vivado/2019.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx2019/Vivado/2019.2
+XILINX_SDK: C:/Xilinx2019/Vitis/2019.2
+XILINX_VITIS: C:/Xilinx2019/Vitis/2019.2
+XILINX_VIVADO: C:/Xilinx2019/Vivado/2019.2
+XILINX_VIVADO_HLS: C:/Xilinx2019/Vivado/2019.2
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 653 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\XJTU COMPARCH\project_5\project_5.xpr. Version: Vivado v2019.2 
+// bB (cr):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/XJTU COMPARCH/project_5/project_5.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/XJTU COMPARCH/project_5/project_5.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 64 MB (+64810kb) [00:00:18]
+// [Engine Memory]: 668 MB (+549308kb) [00:00:18]
+// [GUI Memory]: 79 MB (+12189kb) [00:00:18]
+// [GUI Memory]: 101 MB (+18953kb) [00:00:19]
+// [GUI Memory]: 112 MB (+6154kb) [00:00:20]
+// WARNING: HEventQueue.dispatchEvent() is taking  4437 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx2019/Vivado/2019.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 724 MB. GUI used memory: 53 MB. Current time: 12/24/24, 10:44:54 AM PST
+// Tcl Message: open_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 752.566 ; gain = 49.473 
+// Project name: project_5; location: C:/XJTU COMPARCH/project_5; part: xc7vx485tffg1157-1
+// [Engine Memory]: 724 MB (+23777kb) [00:00:22]
+dismissDialog("Open Project"); // bB (cr)
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 106 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // B (F, cr) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, cr)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, cr)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ai (ao, cr)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cr): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// F (c): Create Source File: addNotify
+// Elapsed time: 40 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "FourWaySACache"); // ac (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 44 seconds
+dismissDialog("Add Sources"); // c (cr)
+// Tcl Message: close [ open {C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/FourWaySACache.v} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/FourWaySACache.v}} 
+// I (cr): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FourWaySACache (FourWaySACache.v)]", 5, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FourWaySACache (FourWaySACache.v)]", 5, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectCodeEditor("FourWaySACache.v", 60, 392); // ch (w, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_Datapath (CPU_Datapath.v)]", 1); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_Datapath (CPU_Datapath.v), DMem_1 : DMem (DMem.v)]", 24, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_Datapath (CPU_Datapath.v), DMem_1 : DMem (DMem.v), CS1_L_16bit : RAM_1Kx16 (RAM_1Kx16.v)]", 29, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectCodeEditor("DMem.v", 200, 350); // ch (w, cr)
+typeControlKey((HResource) null, "DMem.v", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "DMem.v", 'c'); // ch (w, cr)
+selectCodeEditor("DMem.v", 48, 281); // ch (w, cr)
+selectCodeEditor("DMem.v", 0, 260); // ch (w, cr)
+typeControlKey((HResource) null, "DMem.v", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "DMem.v", 'c'); // ch (w, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FourWaySACache (FourWaySACache.v)]", 48, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FourWaySACache (FourWaySACache.v)]", 48, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectCodeEditor("FourWaySACache.v", 109, 428); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 123, 183); // ch (w, cr)
+// Elapsed time: 34 seconds
+selectCodeEditor("FourWaySACache.v", 197, 202); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 213, 227); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 218, 232); // ch (w, cr)
+// Elapsed time: 126 seconds
+selectCodeEditor("FourWaySACache.v", 23, 350); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 106, 332); // ch (w, cr)
+// Elapsed time: 46 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_Datapath (CPU_Datapath.v), DMem_1 : DMem (DMem.v), CS0_H_16bit : RAM_1Kx16 (RAM_1Kx16.v)]", 26, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_Datapath (CPU_Datapath.v), DMem_1 : DMem (DMem.v), CS0_H_16bit : RAM_1Kx16 (RAM_1Kx16.v)]", 26, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectCodeEditor("RAM_1Kx16.v", 19, 124); // ch (w, cr)
+selectCodeEditor("RAM_1Kx16.v", 173, 287); // ch (w, cr)
+selectCodeEditor("RAM_1Kx16.v", 102, 399); // ch (w, cr)
+typeControlKey((HResource) null, "RAM_1Kx16.v", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "RAM_1Kx16.v", 'c'); // ch (w, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FourWaySACache (FourWaySACache.v)]", 48, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FourWaySACache (FourWaySACache.v)]", 48, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectCodeEditor("FourWaySACache.v", 23, 256); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 198, 242); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 198, 147); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 226, 183); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 243, 184); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 245, 253); // ch (w, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 742 MB. GUI used memory: 57 MB. Current time: 12/24/24, 11:14:55 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 742 MB. GUI used memory: 53 MB. Current time: 12/24/24, 11:44:56 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 742 MB. GUI used memory: 52 MB. Current time: 12/24/24, 12:14:58 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 742 MB. GUI used memory: 51 MB. Current time: 12/24/24, 12:45:00 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 742 MB. GUI used memory: 51 MB. Current time: 12/24/24, 1:15:02 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 742 MB. GUI used memory: 51 MB. Current time: 12/24/24, 1:45:04 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 742 MB. GUI used memory: 51 MB. Current time: 12/24/24, 2:15:07 PM PST
+// Elapsed time: 13600 seconds
+selectCodeEditor("FourWaySACache.v", 73, 46); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 66, 44); // ch (w, cr)
+// Elapsed time: 73 seconds
+selectCodeEditor("FourWaySACache.v", 127, 423); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 42, 216); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 85, 235); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 82, 202); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 279, 197); // ch (w, cr)
+// Elapsed time: 54 seconds
+selectCodeEditor("FourWaySACache.v", 77, 100); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 84, 121); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 73, 131); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 76, 110); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 78, 122); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 85, 138); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 118, 162); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 74, 126); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 66, 125); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 126, 157); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 79, 132); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 104, 157); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 66, 279); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 61, 278); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 69, 275); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 89, 293); // ch (w, cr)
+// Elapsed time: 31 seconds
+selectCodeEditor("FourWaySACache.v", 111, 279); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 119, 293); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 84, 308); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 104, 337); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 129, 346); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 197, 352); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 211, 360); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 230, 380); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 208, 349); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 221, 351); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 63, 224); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 76, 347); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 73, 349); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 77, 350); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 96, 364); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 124, 389); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 192, 408); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 125, 284); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 296, 280); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 309, 291); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 158, 404); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 80, 355); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 186, 326); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 97, 359); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 129, 320); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 106, 301); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 218, 227); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 74, 317); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 90, 397); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 99, 393); // ch (w, cr)
+// Elapsed time: 18 seconds
+selectCodeEditor("FourWaySACache.v", 162, 125); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 21, 271); // ch (w, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 742 MB. GUI used memory: 51 MB. Current time: 12/24/24, 2:45:08 PM PST
+// Elapsed time: 36 seconds
+selectCodeEditor("FourWaySACache.v", 126, 245); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 101, 238); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 132, 222); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 119, 235); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 38, 196); // ch (w, cr)
+// Elapsed time: 273 seconds
+selectCodeEditor("FourWaySACache.v", 79, 232); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 114, 250); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 73, 241); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 75, 241); // ch (w, cr)
+// Elapsed time: 39 seconds
+selectCodeEditor("FourWaySACache.v", 352, 274); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 169, 260); // ch (w, cr)
+// Elapsed time: 20 seconds
+selectCodeEditor("FourWaySACache.v", 407, 254); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 186, 263); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 117, 294); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 175, 287); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 401, 231); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 330, 255); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 297, 233); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 420, 258); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 404, 277); // ch (w, cr)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("FourWaySACache.v", 386, 279); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 514, 299); // ch (w, cr)
+// Elapsed time: 13 seconds
+selectCodeEditor("FourWaySACache.v", 37, 42); // ch (w, cr)
+// Elapsed time: 78 seconds
+selectCodeEditor("FourWaySACache.v", 73, 372); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 78, 179); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 105, 219); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 112, 220); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 88, 320); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 67, 373); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 99, 366); // ch (w, cr)
+// Elapsed time: 69 seconds
+selectCodeEditor("FourWaySACache.v", 169, 272); // ch (w, cr)
+// Elapsed time: 10 seconds
+selectCodeEditor("FourWaySACache.v", 317, 235); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 337, 257); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 368, 236); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 515, 213); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 161, 220); // ch (w, cr)
+// Elapsed time: 14 seconds
+selectCodeEditor("FourWaySACache.v", 217, 214); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 31, 209); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_Datapath (CPU_Datapath.v), DMem_1 : DMem (DMem.v)]", 24, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_Datapath (CPU_Datapath.v), DMem_1 : DMem (DMem.v)]", 24, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+// Elapsed time: 19 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_Datapath (CPU_Datapath.v), DMem_1 : DMem (DMem.v)]", 24); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_Datapath (CPU_Datapath.v), DMem_1 : DMem (DMem.v), CS0_H_16bit : RAM_1Kx16 (RAM_1Kx16.v)]", 26, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_Datapath (CPU_Datapath.v), DMem_1 : DMem (DMem.v), CS0_H_16bit : RAM_1Kx16 (RAM_1Kx16.v)]", 26, false, false, false, false, false, true); // B (F, cr) - Double Click
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FourWaySACache (FourWaySACache.v)]", 48, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FourWaySACache (FourWaySACache.v)]", 48, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectCodeEditor("FourWaySACache.v", 114, 128); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("FourWaySACache.v", 162, 240); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 164, 214); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 71, 366); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 143, 316); // ch (w, cr)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("FourWaySACache.v", 115, 108); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 74, 379); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 103, 359); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 71, 332); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 92, 237); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 95, 249); // ch (w, cr)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("FourWaySACache.v", 99, 200); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 113, 220); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 41, 405); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 89, 387); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 49, 438); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 80, 404); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 75, 424); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 311, 293); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 127, 296); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 147, 300); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 146, 256); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 308, 294); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 190, 298); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 119, 152); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 81, 105); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 79, 103); // ch (w, cr)
+// Elapsed time: 16 seconds
+selectCodeEditor("FourWaySACache.v", 291, 295); // ch (w, cr)
+// Elapsed time: 14 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("FourWaySACache.v", 273, 239); // ch (w, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 742 MB. GUI used memory: 52 MB. Current time: 12/24/24, 3:15:09 PM PST
+// Elapsed time: 1284 seconds
+selectCodeEditor("FourWaySACache.v", 196, 139); // ch (w, cr)
+// Elapsed time: 11 seconds
+selectCodeEditor("FourWaySACache.v", 108, 158); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 160, 161); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 374, 297); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 358, 286); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 342, 274); // ch (w, cr)
+// Elapsed time: 16 seconds
+selectCodeEditor("FourWaySACache.v", 153, 274); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 156, 276, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("FourWaySACache.v", 156, 276); // ch (w, cr)
+// Elapsed time: 46 seconds
+selectCodeEditor("FourWaySACache.v", 173, 306); // ch (w, cr)
+// Elapsed time: 11 seconds
+selectCodeEditor("FourWaySACache.v", 303, 218); // ch (w, cr)
+// Elapsed time: 140 seconds
+selectCodeEditor("FourWaySACache.v", 141, 392); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 179, 330); // ch (w, cr)
+// Elapsed time: 92 seconds
+selectCodeEditor("FourWaySACache.v", 61, 134); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 64, 139); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 282, 143); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 287, 145); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 150, 124); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 172, 62); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 162, 303); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 159, 295); // ch (w, cr)
+// Elapsed time: 15 seconds
+selectCodeEditor("FourWaySACache.v", 67, 84); // ch (w, cr)
+// Elapsed time: 45 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("FourWaySACache.v", 162, 217); // ch (w, cr)
+// Elapsed time: 200 seconds
+selectCodeEditor("FourWaySACache.v", 157, 368); // ch (w, cr)
+// Elapsed time: 32 seconds
+selectCodeEditor("FourWaySACache.v", 261, 275); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 185, 272); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 280, 281); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 158, 244); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 158, 245); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 158, 261); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 542, 254); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 176, 267); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 157, 261); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 537, 262); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 203, 190); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 159, 159); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 159, 159); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 174, 126); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 187, 173); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 584, 256); // ch (w, cr)
+// Elapsed time: 110 seconds
+selectCodeEditor("FourWaySACache.v", 269, 364); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 188, 391); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 263, 383); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 256, 397); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 264, 407); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 135, 293); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 179, 374); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 192, 386); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 159, 450); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 96, 247); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 176, 422); // ch (w, cr)
+// Elapsed time: 49 seconds
+selectCodeEditor("FourWaySACache.v", 198, 352); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 225, 446); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 155, 390); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 156, 403); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 228, 420); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 259, 430); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 286, 445); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 291, 445); // ch (w, cr)
+// Elapsed time: 20 seconds
+selectCodeEditor("FourWaySACache.v", 133, 193); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 84, 101); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 68, 157); // ch (w, cr)
+// Elapsed time: 65 seconds
+selectCodeEditor("FourWaySACache.v", 177, 217); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 191, 420); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 209, 233); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 93, 234); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 93, 234); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 97, 235, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("FourWaySACache.v", 168, 195); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 148, 219); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 90, 281); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 96, 277); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 170, 277); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 279, 337); // ch (w, cr)
+// Elapsed time: 38 seconds
+selectCodeEditor("FourWaySACache.v", 69, 88); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 69, 83); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 77, 86); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 73, 86); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 76, 138); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 75, 138); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 204, 82); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 65, 102); // ch (w, cr)
+typeControlKey(null, null, 'z');
+selectCodeEditor("FourWaySACache.v", 74, 90); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 96, 102); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 118, 121); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 138, 125); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 143, 125); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 120, 144); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 120, 169); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 96, 185); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 73, 210); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 66, 185); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 75, 202); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 95, 231); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 68, 257); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 71, 257, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("FourWaySACache.v", 67, 257); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 44, 255); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 96, 276); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 121, 293); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 144, 313); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 160, 338); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 166, 341); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 167, 340); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 143, 356); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 141, 375); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 143, 374); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 120, 391); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 100, 414); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 97, 414); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 97, 411); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 97, 426); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 96, 424); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 76, 392); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 66, 392); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 73, 393); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 74, 416); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 93, 375); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 91, 391); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 87, 411); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 89, 426); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 81, 329); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 70, 354); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 66, 380); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 61, 372); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 73, 419); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 66, 400); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 72, 430); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 65, 449); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 56, 405); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 59, 422); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 95, 440); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 185, 87); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 139, 158); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 130, 150); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+// Elapsed time: 15 seconds
+selectCodeEditor("FourWaySACache.v", 144, 318); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 127, 358); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 140, 334); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 166, 373); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 167, 366); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 165, 233); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 187, 233); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 171, 233); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 250, 240); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 246, 236, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("FourWaySACache.v", 204, 245); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 171, 239); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 244, 256); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 171, 266); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 189, 269); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 174, 272); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 261, 296); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 285, 380); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 48 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_Datapath (CPU_Datapath.v), DMem_1 : DMem (DMem.v)]", 24, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_Datapath (CPU_Datapath.v), DMem_1 : DMem (DMem.v)]", 24, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+selectCodeEditor("DMem.v", 249, 209); // ch (w, cr)
+selectCodeEditor("DMem.v", 266, 224); // ch (w, cr)
+selectCodeEditor("DMem.v", 284, 240); // ch (w, cr)
+// Elapsed time: 26 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FourWaySACache (FourWaySACache.v)]", 39, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FourWaySACache (FourWaySACache.v)]", 39, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectCodeEditor("FourWaySACache.v", 132, 320); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_Datapath (CPU_Datapath.v), DMem_1 : DMem (DMem.v)]", 24, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_Datapath (CPU_Datapath.v), DMem_1 : DMem (DMem.v), Decoder24_1 : Decoder24 (Decoder24.v)]", 25, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectCodeEditor("DMem.v", 173, 254); // ch (w, cr)
+typeControlKey((HResource) null, "DMem.v", 'v'); // ch (w, cr)
+selectCodeEditor("DMem.v", 196, 256); // ch (w, cr)
+// Elapsed time: 63 seconds
+selectCodeEditor("DMem.v", 344, 248); // ch (w, cr)
+// Elapsed time: 31 seconds
+selectCodeEditor("DMem.v", 140, 291); // ch (w, cr)
+// Elapsed time: 11 seconds
+typeControlKey((HResource) null, "DMem.v", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "DMem.v", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "DMem.v", 'c'); // ch (w, cr)
+selectCodeEditor("DMem.v", 71, 255); // ch (w, cr)
+selectCodeEditor("DMem.v", 57, 285); // ch (w, cr)
+selectCodeEditor("DMem.v", 52, 268); // ch (w, cr)
+// Elapsed time: 16 seconds
+selectCodeEditor("DMem.v", 221, 266); // ch (w, cr)
+selectCodeEditor("DMem.v", 197, 283); // ch (w, cr)
+selectCodeEditor("DMem.v", 196, 303); // ch (w, cr)
+selectCodeEditor("DMem.v", 348, 255); // ch (w, cr)
+selectCodeEditor("DMem.v", 337, 254); // ch (w, cr)
+selectCodeEditor("DMem.v", 352, 256); // ch (w, cr)
+typeControlKey((HResource) null, "DMem.v", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "DMem.v", 'v'); // ch (w, cr)
+selectCodeEditor("DMem.v", 412, 309); // ch (w, cr)
+selectCodeEditor("DMem.v", 431, 316); // ch (w, cr)
+selectCodeEditor("DMem.v", 423, 342); // ch (w, cr)
+selectCodeEditor("DMem.v", 404, 330); // ch (w, cr)
+selectCodeEditor("DMem.v", 503, 463); // ch (w, cr)
+typeControlKey(null, null, 'z');
+selectCodeEditor("DMem.v", 395, 307); // ch (w, cr)
+// Elapsed time: 36 seconds
+selectCodeEditor("DMem.v", 57, 367); // ch (w, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 742 MB. GUI used memory: 51 MB. Current time: 12/24/24, 3:45:10 PM PST
+// Elapsed time: 146 seconds
+selectCodeEditor("DMem.v", 46, 235); // ch (w, cr)
+selectCodeEditor("DMem.v", 79, 426); // ch (w, cr)
+typeControlKey((HResource) null, "DMem.v", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "DMem.v", 'c'); // ch (w, cr)
+// Elapsed time: 84 seconds
+selectCodeEditor("DMem.v", 223, 260); // ch (w, cr)
+// Elapsed time: 181 seconds
+selectCodeEditor("DMem.v", 640, 282); // ch (w, cr)
+selectCodeEditor("DMem.v", 636, 282); // ch (w, cr)
+selectCodeEditor("DMem.v", 203, 208); // ch (w, cr)
+selectCodeEditor("DMem.v", 634, 300); // ch (w, cr)
+typeControlKey((HResource) null, "DMem.v", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "DMem.v", 'c'); // ch (w, cr)
+selectCodeEditor("DMem.v", 584, 316); // ch (w, cr)
+typeControlKey((HResource) null, "DMem.v", 'v'); // ch (w, cr)
+selectCodeEditor("DMem.v", 634, 336); // ch (w, cr)
+typeControlKey((HResource) null, "DMem.v", 'v'); // ch (w, cr)
+selectCodeEditor("DMem.v", 580, 352); // ch (w, cr)
+typeControlKey((HResource) null, "DMem.v", 'v'); // ch (w, cr)
+selectCodeEditor("DMem.v", 636, 372); // ch (w, cr)
+typeControlKey((HResource) null, "DMem.v", 'v'); // ch (w, cr)
+selectCodeEditor("DMem.v", 579, 391); // ch (w, cr)
+selectCodeEditor("DMem.v", 584, 398); // ch (w, cr)
+typeControlKey((HResource) null, "DMem.v", 'v'); // ch (w, cr)
+selectCodeEditor("DMem.v", 663, 409); // ch (w, cr)
+selectCodeEditor("DMem.v", 669, 409); // ch (w, cr)
+selectCodeEditor("DMem.v", 641, 409); // ch (w, cr)
+selectCodeEditor("DMem.v", 633, 408); // ch (w, cr)
+selectCodeEditor("DMem.v", 637, 410, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("DMem.v", 637, 409); // ch (w, cr)
+selectCodeEditor("DMem.v", 644, 412); // ch (w, cr)
+selectCodeEditor("DMem.v", 635, 404); // ch (w, cr)
+typeControlKey((HResource) null, "DMem.v", 'v'); // ch (w, cr)
+selectCodeEditor("DMem.v", 583, 428); // ch (w, cr)
+typeControlKey((HResource) null, "DMem.v", 'v'); // ch (w, cr)
+selectCodeEditor("DMem.v", 464, 240); // ch (w, cr)
+selectCodeEditor("DMem.v", 350, 259); // ch (w, cr)
+selectCodeEditor("DMem.v", 217, 228); // ch (w, cr)
+selectCodeEditor("DMem.v", 203, 217); // ch (w, cr)
+selectCodeEditor("DMem.v", 204, 215); // ch (w, cr)
+selectCodeEditor("DMem.v", 230, 249); // ch (w, cr)
+// Elapsed time: 29 seconds
+selectCodeEditor("DMem.v", 212, 197); // ch (w, cr)
+selectCodeEditor("DMem.v", 234, 216); // ch (w, cr)
+selectCodeEditor("DMem.v", 212, 246); // ch (w, cr)
+selectCodeEditor("DMem.v", 188, 219); // ch (w, cr)
+// Elapsed time: 49 seconds
+selectCodeEditor("DMem.v", 136, 166); // ch (w, cr)
+selectCodeEditor("DMem.v", 124, 161); // ch (w, cr)
+selectCodeEditor("DMem.v", 148, 225); // ch (w, cr)
+selectCodeEditor("DMem.v", 143, 253); // ch (w, cr)
+selectCodeEditor("DMem.v", 125, 238); // ch (w, cr)
+// Elapsed time: 36 seconds
+selectCodeEditor("DMem.v", 201, 319); // ch (w, cr)
+typeControlKey((HResource) null, "DMem.v", 'c'); // ch (w, cr)
+selectCodeEditor("DMem.v", 72, 181); // ch (w, cr)
+typeControlKey((HResource) null, "DMem.v", 'v'); // ch (w, cr)
+selectCodeEditor("DMem.v", 82, 366); // ch (w, cr)
+selectCodeEditor("DMem.v", 64, 350); // ch (w, cr)
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FourWaySACache (FourWaySACache.v)]", 48, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FourWaySACache (FourWaySACache.v)]", 48, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectCodeEditor("FourWaySACache.v", 122, 312); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DMem.v", 2); // i (h, cr)
+selectCodeEditor("DMem.v", 201, 357); // ch (w, cr)
+typeControlKey((HResource) null, "DMem.v", 'v'); // ch (w, cr)
+selectCodeEditor("DMem.v", 195, 352); // ch (w, cr)
+selectCodeEditor("DMem.v", 230, 347); // ch (w, cr)
+// Elapsed time: 68 seconds
+selectCodeEditor("DMem.v", 150, 365); // ch (w, cr)
+selectCodeEditor("DMem.v", 381, 364); // ch (w, cr)
+selectCodeEditor("DMem.v", 370, 356); // ch (w, cr)
+// Elapsed time: 410 seconds
+selectCodeEditor("DMem.v", 325, 189); // ch (w, cr)
+selectCodeEditor("DMem.v", 366, 153); // ch (w, cr)
+// Elapsed time: 132 seconds
+selectCodeEditor("DMem.v", 368, 161); // ch (w, cr)
+selectCodeEditor("DMem.v", 173, 62); // ch (w, cr)
+selectCodeEditor("DMem.v", 119, 127); // ch (w, cr)
+selectCodeEditor("DMem.v", 238, 218); // ch (w, cr)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("DMem.v", 134, 364); // ch (w, cr)
+selectCodeEditor("DMem.v", 122, 349); // ch (w, cr)
+selectCodeEditor("DMem.v", 105, 158); // ch (w, cr)
+selectCodeEditor("DMem.v", 125, 240); // ch (w, cr)
+selectCodeEditor("DMem.v", 183, 251); // ch (w, cr)
+selectCodeEditor("DMem.v", 331, 220); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("DMem.v", 68, 90); // ch (w, cr)
+selectCodeEditor("DMem.v", 39, 204); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("DMem.v", 60, 29); // ch (w, cr)
+selectCodeEditor("DMem.v", 65, 27); // ch (w, cr)
+selectCodeEditor("DMem.v", 44, 32); // ch (w, cr)
+selectCodeEditor("DMem.v", 44, 32); // ch (w, cr)
+selectCodeEditor("DMem.v", 76, 278); // ch (w, cr)
+selectCodeEditor("DMem.v", 22, 278); // ch (w, cr)
+selectCodeEditor("DMem.v", 26, 278, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "DMem.v", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "DMem.v", 'c'); // ch (w, cr)
+selectCodeEditor("DMem.v", 84, 27); // ch (w, cr)
+typeControlKey((HResource) null, "DMem.v", 'v'); // ch (w, cr)
+selectCodeEditor("DMem.v", 72, 33); // ch (w, cr)
+selectCodeEditor("DMem.v", 112, 34); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_Datapath (CPU_Datapath.v)]", 1, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_Datapath (CPU_Datapath.v)]", 1, true, false, false, false, true, false); // B (F, cr) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, cr)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, cr)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DMem.v", 2, true, false); // i (h, cr) - Popup Trigger
+selectCodeEditor("DMem.v", 59, 425); // ch (w, cr)
+typeControlKey((HResource) null, "DMem.v", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "DMem.v", 'c'); // ch (w, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_Datapath (CPU_Datapath.v)]", 1, true, false, false, false, true, false); // B (F, cr) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, cr)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, cr)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ai (ao, cr)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cr): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, (String) null); // ac (Q, F)
+dismissDialog("Create Source File"); // F (c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "RAM_4Kx32"); // ac (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 20 seconds
+dismissDialog("Add Sources"); // c (cr)
+// Tcl Message: close [ open {C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/RAM_4Kx32.v} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/RAM_4Kx32.v}} 
+// I (cr): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RAM_4Kx32 (RAM_4Kx32.v)]", 36, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RAM_4Kx32 (RAM_4Kx32.v)]", 36, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+selectCodeEditor("RAM_4Kx32.v", 120, 440); // ch (w, cr)
+typeControlKey((HResource) null, "RAM_4Kx32.v", 'v'); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_Datapath (CPU_Datapath.v), DMem_1 : xil_defaultlib.DMem]", 24, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_Datapath (CPU_Datapath.v), DMem_1 : xil_defaultlib.DMem]", 24, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RAM_4Kx32 (DMem.v)]", 51, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RAM_4Kx32 (DMem.v)]", 51, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectCodeEditor("DMem.v", 40, 33); // ch (w, cr)
+selectCodeEditor("DMem.v", 102, 55); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("DMem.v", 27, 269); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("DMem.v", 794, 409); // ch (w, cr)
+selectCodeEditor("DMem.v", 768, 401); // ch (w, cr)
+selectCodeEditor("DMem.v", 703, 407); // ch (w, cr)
+selectCodeEditor("DMem.v", 733, 405); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FourWaySACache (FourWaySACache.v)]", 49, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FourWaySACache (FourWaySACache.v)]", 49, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectCodeEditor("FourWaySACache.v", 112, 314); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 117, 295); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 79, 255); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 108, 290); // ch (w, cr)
+// Elapsed time: 24 seconds
+selectCodeEditor("FourWaySACache.v", 230, 327); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 21 seconds
+selectCodeEditor("FourWaySACache.v", 115, 411); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 150, 407); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("FourWaySACache.v", 87, 351); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 90, 354); // ch (w, cr)
+// Elapsed time: 16 seconds
+selectCodeEditor("FourWaySACache.v", 212, 359); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 89, 173); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 74, 145); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 135, 403); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 139, 405); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 112, 246); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 83, 249); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 75, 181); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 128, 183); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 133, 187); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 136, 161); // ch (w, cr)
+// Elapsed time: 11 seconds
+selectCodeEditor("FourWaySACache.v", 160, 198); // ch (w, cr)
+// Elapsed time: 10 seconds
+selectCodeEditor("FourWaySACache.v", 109, 56); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 107, 63); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 124, 67); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 88, 67); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 175, 106); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 121, 58); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 104, 53); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 77, 77); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 113, 72); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 116, 102); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 114, 59); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 124, 333); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 212, 224); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 133, 406); // ch (w, cr)
+// Elapsed time: 23 seconds
+selectCodeEditor("FourWaySACache.v", 132, 183); // ch (w, cr)
+// Elapsed time: 10 seconds
+selectCodeEditor("FourWaySACache.v", 139, 204); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 151, 204); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 146, 201); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 127, 236); // ch (w, cr)
+// Elapsed time: 12 seconds
+selectCodeEditor("FourWaySACache.v", 124, 410); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 155, 385); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 145, 157); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 121, 158); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 118, 173); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 146, 202); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 124, 293); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 117, 291); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 71, 256); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 280, 367); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 275, 394); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 132, 109); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 422, 376); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 94, 287); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+// Elapsed time: 18 seconds
+selectCodeEditor("FourWaySACache.v", 241, 386); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 263, 372); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 343, 356); // ch (w, cr)
+// Elapsed time: 10 seconds
+selectCodeEditor("FourWaySACache.v", 306, 370); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 179, 224); // ch (w, cr)
+// Elapsed time: 19 seconds
+selectCodeEditor("FourWaySACache.v", 240, 223); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 155, 352); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 256, 373); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 202, 347); // ch (w, cr)
+// Elapsed time: 14 seconds
+selectCodeEditor("FourWaySACache.v", 74, 165); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 332, 185); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 339, 210); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 294, 269); // ch (w, cr)
+// Elapsed time: 23 seconds
+selectCodeEditor("FourWaySACache.v", 370, 309); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 321, 267); // ch (w, cr)
+// Elapsed time: 18 seconds
+selectCodeEditor("FourWaySACache.v", 154, 332); // ch (w, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 742 MB. GUI used memory: 52 MB. Current time: 12/24/24, 4:15:11 PM PST
+selectCodeEditor("FourWaySACache.v", 320, 103); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 283, 250); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 290, 268); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 197, 259); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 246, 292); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 259, 283); // ch (w, cr)
+// Elapsed time: 10 seconds
+selectCodeEditor("FourWaySACache.v", 228, 199); // ch (w, cr)
+// Elapsed time: 92 seconds
+selectCodeEditor("FourWaySACache.v", 266, 292); // ch (w, cr)
+// Elapsed time: 1286 seconds
+selectCodeEditor("FourWaySACache.v", 251, 352); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 268, 352); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 259, 350); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 350, 360); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 327, 353); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 313, 350); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 383, 353); // ch (w, cr)
+// Elapsed time: 27 seconds
+selectCodeEditor("FourWaySACache.v", 256, 99); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 218, 128); // ch (w, cr)
+// Elapsed time: 17 seconds
+selectCodeEditor("FourWaySACache.v", 132, 352); // ch (w, cr)
+// Elapsed time: 48 seconds
+selectCodeEditor("FourWaySACache.v", 71, 146); // ch (w, cr)
+// Elapsed time: 10 seconds
+selectCodeEditor("FourWaySACache.v", 261, 296); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 54, 201); // ch (w, cr)
+// Elapsed time: 13 seconds
+selectCodeEditor("FourWaySACache.v", 106, 230); // ch (w, cr)
+// Elapsed time: 12 seconds
+selectCodeEditor("FourWaySACache.v", 171, 274); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 154, 99); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 180, 417); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 179, 419); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 209, 234); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 282, 239); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 316, 240); // ch (w, cr)
+// Elapsed time: 20 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("FourWaySACache.v", 336, 279); // ch (w, cr)
+typeControlKey(null, null, 'z');
+selectCodeEditor("FourWaySACache.v", 46, 47); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 54, 52); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 61, 67); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 72, 48); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 46, 31); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 48, 67); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 50, 67, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 67, 89); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 248, 247); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 178, 163); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 83, 124); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 93, 32); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 101, 32); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 99, 32); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 108, 38); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 100, 33); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 163, 363); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 162, 331); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 213, 156); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 71, 262); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 106, 284); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 114, 275); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 168, 427); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 103, 112); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 106, 112); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 111, 112); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 73, 106); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 176, 445); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 131, 135); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 135, 127); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 70, 125); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 198, 335); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 215, 352); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 268, 375); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 258, 367); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 263, 367); // ch (w, cr)
+// Elapsed time: 17 seconds
+selectCodeEditor("FourWaySACache.v", 411, 429); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 293, 416); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 404, 371); // ch (w, cr)
+// Elapsed time: 10 seconds
+selectCodeEditor("FourWaySACache.v", 157, 283); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 170, 292); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+typeControlKey(null, null, 'z');
+// Elapsed time: 35 seconds
+selectCodeEditor("FourWaySACache.v", 324, 374); // ch (w, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 742 MB. GUI used memory: 52 MB. Current time: 12/24/24, 4:45:12 PM PST
+// Elapsed time: 97 seconds
+selectCodeEditor("FourWaySACache.v", 153, 303); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 202, 179); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 163, 99); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 200, 120); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 278, 154); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 260, 199); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 233, 366); // ch (w, cr)
+// Elapsed time: 17 seconds
+selectCodeEditor("FourWaySACache.v", 277, 327); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 332, 412); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 235, 374); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 248, 383); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 329, 393); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 245, 341); // ch (w, cr)
+// Elapsed time: 237 seconds
+selectCodeEditor("FourWaySACache.v", 312, 219); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 310, 227); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 337, 250); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 313, 204); // ch (w, cr)
+// Elapsed time: 11 seconds
+selectCodeEditor("FourWaySACache.v", 341, 384); // ch (w, cr)
+// Elapsed time: 13 seconds
+selectCodeEditor("FourWaySACache.v", 356, 388); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+// Elapsed time: 53 seconds
+selectCodeEditor("FourWaySACache.v", 310, 337); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 336, 386); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 347, 389); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 342, 388); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 445, 356); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 387, 300); // ch (w, cr)
+// Elapsed time: 25 seconds
+selectCodeEditor("FourWaySACache.v", 204, 227); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 184, 188); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 296, 119); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 339, 122); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 101, 182); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 149, 339); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("FourWaySACache.v", 413, 238); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+// Elapsed time: 18 seconds
+selectCodeEditor("FourWaySACache.v", 226, 160); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 257, 167); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 222, 158); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+// HOptionPane Error: 'The copy failed. The system clipboard is not available. See if other programs are accessing it or try again later. (Copy Error)'
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 199, 295); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 170, 358); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 168, 368); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 175, 389); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 294, 386); // ch (w, cr)
+// Elapsed time: 57 seconds
+selectCodeEditor("FourWaySACache.v", 181, 202); // ch (w, cr)
+// Elapsed time: 22 seconds
+selectCodeEditor("FourWaySACache.v", 225, 181); // ch (w, cr)
+// Elapsed time: 16 seconds
+selectCodeEditor("FourWaySACache.v", 217, 349); // ch (w, cr)
+// Elapsed time: 10 seconds
+selectCodeEditor("FourWaySACache.v", 272, 110); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 218, 349); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 322, 327); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 107, 409); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("FourWaySACache.v", 175, 211); // ch (w, cr)
+// Elapsed time: 28 seconds
+selectCodeEditor("FourWaySACache.v", 255, 159); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 258, 178); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 205, 385); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 193, 378); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 138, 275); // ch (w, cr)
+// Elapsed time: 20 seconds
+selectCodeEditor("FourWaySACache.v", 158, 273); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 138, 256); // ch (w, cr)
+// Elapsed time: 60 seconds
+selectCodeEditor("FourWaySACache.v", 128, 145); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 97, 407); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 127, 150); // ch (w, cr)
+// Elapsed time: 31 seconds
+selectCodeEditor("FourWaySACache.v", 191, 105); // ch (w, cr)
+// Elapsed time: 14 seconds
+selectCodeEditor("FourWaySACache.v", 209, 154); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 167, 188); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 147, 207); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'v'); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 303, 141); // ch (w, cr)
+// Elapsed time: 11 seconds
+selectCodeEditor("FourWaySACache.v", 248, 125); // ch (w, cr)
+// Elapsed time: 19 seconds
+selectCodeEditor("FourWaySACache.v", 217, 338); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 253, 351); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 248, 320); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 264, 330); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 79, 88); // ch (w, cr)
+// Elapsed time: 15 seconds
+selectCodeEditor("FourWaySACache.v", 121, 141); // ch (w, cr)
+// Elapsed time: 12 seconds
+selectCodeEditor("FourWaySACache.v", 245, 163); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 742 MB. GUI used memory: 53 MB. Current time: 12/24/24, 5:15:14 PM PST
+// Elapsed time: 1048 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RAM_4Kx32.v", 4); // i (h, cr)
+selectCodeEditor("RAM_4Kx32.v", 202, 130); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 216, 138); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 199, 87); // ch (w, cr)
+// Elapsed time: 23 seconds
+selectCodeEditor("RAM_4Kx32.v", 243, 132); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 256, 147); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RAM_4Kx32 (RAM_4Kx32.v), CS2_L_16bit : RAM_1Kx16 (RAM_1Kx16.v)]", 43, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RAM_4Kx32 (RAM_4Kx32.v), CS2_L_16bit : RAM_1Kx16 (RAM_1Kx16.v)]", 43, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectCodeEditor("RAM_1Kx16.v", 53, 407); // ch (w, cr)
+typeControlKey((HResource) null, "RAM_1Kx16.v", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "RAM_1Kx16.v", 'c'); // ch (w, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RAM_4Kx32 (RAM_4Kx32.v)]", 36, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RAM_4Kx32 (RAM_4Kx32.v)]", 36, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+selectCodeEditor("RAM_4Kx32.v", 25, 198); // ch (w, cr)
+typeControlKey((HResource) null, "RAM_4Kx32.v", 'v'); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 181, 145); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 175, 148); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 180, 144); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 188, 144); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 184, 145); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 173, 148); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 180, 164); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 224, 267); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 155, 229); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 226, 267); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 57, 213); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 222, 261); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 378, 218); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 131, 100); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 96, 99); // ch (w, cr)
+typeControlKey((HResource) null, "RAM_4Kx32.v", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "RAM_4Kx32.v", 'c'); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 128, 327); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 192, 82); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 223, 88); // ch (w, cr)
+// Elapsed time: 11 seconds
+selectCodeEditor("RAM_4Kx32.v", 96, 124); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 100, 148); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 138, 350); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 167, 355); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 119, 51); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 167, 84); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 104, 66); // ch (w, cr)
+// Elapsed time: 11 seconds
+selectCodeEditor("RAM_4Kx32.v", 261, 135); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 272, 146); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 282, 156); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 228, 324); // ch (w, cr)
+// Elapsed time: 41 seconds
+selectCodeEditor("RAM_4Kx32.v", 181, 358); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 69, 181); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 264, 270); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 305, 382); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 287, 369); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 120, 367); // ch (w, cr)
+// Elapsed time: 66 seconds
+selectCodeEditor("RAM_4Kx32.v", 298, 375); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("RAM_4Kx32.v", 164, 357); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 123, 371); // ch (w, cr)
+// Elapsed time: 23 seconds
+selectCodeEditor("RAM_4Kx32.v", 183, 50); // ch (w, cr)
+// Elapsed time: 20 seconds
+selectCodeEditor("RAM_4Kx32.v", 219, 108); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 233, 159); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 209, 367); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 191, 372); // ch (w, cr)
+// Elapsed time: 12 seconds
+selectCodeEditor("RAM_4Kx32.v", 186, 84); // ch (w, cr)
+typeControlKey((HResource) null, "RAM_4Kx32.v", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "RAM_4Kx32.v", 'c'); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 230, 353); // ch (w, cr)
+typeControlKey((HResource) null, "RAM_4Kx32.v", 'v'); // ch (w, cr)
+// Elapsed time: 11 seconds
+selectCodeEditor("RAM_4Kx32.v", 196, 352); // ch (w, cr)
+typeControlKey((HResource) null, "RAM_4Kx32.v", 'c'); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 123, 378); // ch (w, cr)
+typeControlKey((HResource) null, "RAM_4Kx32.v", 'v'); // ch (w, cr)
+// Elapsed time: 16 seconds
+selectCodeEditor("RAM_4Kx32.v", 371, 365); // ch (w, cr)
+typeControlKey((HResource) null, "RAM_4Kx32.v", 'c'); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 104, 392, false, true, false, false, false); // ch (w, cr) - Control Key
+typeControlKey((HResource) null, "RAM_4Kx32.v", 'v'); // ch (w, cr)
+typeControlKey((HResource) null, "RAM_4Kx32.v", 'v'); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 203, 392); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 208, 418); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 208, 404); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 208, 405); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 323, 391); // ch (w, cr)
+// Elapsed time: 17 seconds
+selectCodeEditor("RAM_4Kx32.v", 443, 348); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 309, 352); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 363, 363); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 381, 387); // ch (w, cr)
+// Elapsed time: 20 seconds
+selectCodeEditor("RAM_4Kx32.v", 104, 154); // ch (w, cr)
+// Elapsed time: 16 seconds
+selectCodeEditor("RAM_4Kx32.v", 123, 190); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 128, 294); // ch (w, cr)
+// Elapsed time: 20 seconds
+selectCodeEditor("RAM_4Kx32.v", 104, 204); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 110, 204); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 150, 184); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 107, 270); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 386, 363); // ch (w, cr)
+typeControlKey((HResource) null, "RAM_4Kx32.v", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "RAM_4Kx32.v", 'v'); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 377, 389); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 153, 369); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 217, 323); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("RAM_4Kx32.v", 229, 307); // ch (w, cr)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FourWaySACache.v", 1); // i (h, cr)
+selectCodeEditor("FourWaySACache.v", 184, 268); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 218, 265); // ch (w, cr)
+// Elapsed time: 11 seconds
+selectCodeEditor("FourWaySACache.v", 238, 245); // ch (w, cr)
+// Elapsed time: 11 seconds
+selectCodeEditor("FourWaySACache.v", 384, 124); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 48 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RAM_4Kx32.v", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FourWaySACache.v", 1); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DMem.v", 3); // i (h, cr)
+selectCodeEditor("DMem.v", 127, 162); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FourWaySACache.v", 1); // i (h, cr)
+selectCodeEditor("FourWaySACache.v", 66, 230); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+typeControlKey((HResource) null, "FourWaySACache.v", 'c'); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DMem.v", 3); // i (h, cr)
+typeControlKey((HResource) null, "DMem.v", 'v'); // ch (w, cr)
+typeControlKey(null, null, 'z');
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FourWaySACache.v", 1); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DMem.v", 3); // i (h, cr)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FourWaySACache.v", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DMem.v", 3); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FourWaySACache.v", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DMem.v", 3); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FourWaySACache.v", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DMem.v", 3); // i (h, cr)
+selectCodeEditor("DMem.v", 390, 144); // ch (w, cr)
+// Elapsed time: 12 seconds
+selectCodeEditor("DMem.v", 427, 212); // ch (w, cr)
+selectCodeEditor("DMem.v", 408, 201); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FourWaySACache.v", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DMem.v", 3); // i (h, cr)
+selectCodeEditor("DMem.v", 138, 188); // ch (w, cr)
+// Elapsed time: 10 seconds
+selectCodeEditor("DMem.v", 59, 189); // ch (w, cr)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FourWaySACache.v", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DMem.v", 3); // i (h, cr)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FourWaySACache.v", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DMem.v", 3); // i (h, cr)
+selectCodeEditor("DMem.v", 506, 269); // ch (w, cr)
+selectCodeEditor("DMem.v", 494, 261); // ch (w, cr)
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FourWaySACache.v", 2); // i (h, cr)
+selectCodeEditor("FourWaySACache.v", 271, 190); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DMem.v", 3); // i (h, cr)
+selectCodeEditor("DMem.v", 588, 247); // ch (w, cr)
+// Elapsed time: 26 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RAM_4Kx32.v", 1); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DMem.v", 3); // i (h, cr)
+selectCodeEditor("DMem.v", 193, 254); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RAM_4Kx32.v", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DMem.v", 3); // i (h, cr)
+selectCodeEditor("DMem.v", 230, 263); // ch (w, cr)
+selectCodeEditor("DMem.v", 210, 271); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RAM_4Kx32.v", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DMem.v", 3); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RAM_4Kx32.v", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DMem.v", 3); // i (h, cr)
+// Elapsed time: 40 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RAM_4Kx32.v", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DMem.v", 3); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DMem.v", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RAM_4Kx32.v", 3); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DMem.v", 2); // i (h, cr)
+selectCodeEditor("DMem.v", 428, 317); // ch (w, cr)
+selectCodeEditor("DMem.v", 414, 301); // ch (w, cr)
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FourWaySACache.v", 1); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DMem.v", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RAM_4Kx32.v", 3); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DMem.v", 2); // i (h, cr)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RAM_4Kx32.v", 3); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DMem.v", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RAM_4Kx32.v", 3); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DMem.v", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RAM_4Kx32.v", 3); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DMem.v", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RAM_4Kx32.v", 3); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DMem.v", 2); // i (h, cr)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RAM_4Kx32.v", 3); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DMem.v", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RAM_4Kx32.v", 3); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DMem.v", 2); // i (h, cr)
+// Elapsed time: 20 seconds
+selectCodeEditor("DMem.v", 646, 300); // ch (w, cr)
+selectCodeEditor("DMem.v", 592, 339); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FourWaySACache.v", 1); // i (h, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("FourWaySACache.v", 172, 120); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 218, 131); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 227, 138); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 244, 180); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 248, 220); // ch (w, cr)
+// Elapsed time: 17 seconds
+selectCodeEditor("FourWaySACache.v", 260, 295); // ch (w, cr)
+selectCodeEditor("FourWaySACache.v", 410, 272); // ch (w, cr)
+// Elapsed time: 98 seconds
+selectCodeEditor("FourWaySACache.v", 406, 321); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DMem.v", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RAM_4Kx32.v", 3); // i (h, cr)
+// Elapsed time: 11 seconds
+selectCodeEditor("RAM_4Kx32.v", 460, 154); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 47 seconds
+selectCodeEditor("RAM_4Kx32.v", 326, 200); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 350, 211); // ch (w, cr)
+selectCodeEditor("RAM_4Kx32.v", 368, 210); // ch (w, cr)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FourWaySACache.v", 1); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DMem.v", 2); // i (h, cr)
+// Elapsed time: 39 seconds
+selectCodeEditor("DMem.v", 369, 185); // ch (w, cr)
+selectCodeEditor("DMem.v", 317, 174); // ch (w, cr)
+selectCodeEditor("DMem.v", 298, 165); // ch (w, cr)
+selectCodeEditor("DMem.v", 272, 148); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 23 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_Datapath (CPU_Datapath.v), DMem_1 : DMem (DMem.v)]", 24, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_Datapath (CPU_Datapath.v), DMem_1 : DMem (DMem.v)]", 24, true, false, false, false, true, false); // B (F, cr) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, cr)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, cr)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ai (ao, cr)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top DMem [current_fileset] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u (O, cr) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// A (cr): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bB (cr):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A (cr)
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7vx485tffg1157-1 Top: DMem 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,228 MB. GUI used memory: 53 MB. Current time: 12/24/24, 5:38:34 PM PST
+// TclEventType: ELABORATE_START
+// HMemoryUtils.trashcanNow. Engine heap size: 3,101 MB. GUI used memory: 53 MB. Current time: 12/24/24, 5:38:49 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,091 MB. GUI used memory: 54 MB. Current time: 12/24/24, 5:39:05 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,519 MB. GUI used memory: 53 MB. Current time: 12/24/24, 5:39:24 PM PST

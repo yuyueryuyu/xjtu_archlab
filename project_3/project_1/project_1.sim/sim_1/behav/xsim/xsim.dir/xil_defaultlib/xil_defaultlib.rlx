@@ -1,0 +1,15 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/XJTU COMPARCH/project_3/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+C:/XJTU COMPARCH/project_3/project_1/project_1.srcs/sources_1/new/1.v,1729993138,verilog,,C:/XJTU COMPARCH/project_3/project_1/project_1.srcs/sources_1/new/10.v,,fulladder_1,,,,,,,,
+C:/XJTU COMPARCH/project_3/project_1/project_1.srcs/sources_1/new/10.v,1730107528,verilog,,C:/XJTU COMPARCH/project_3/project_1/project_1.srcs/sources_1/new/11.v,,ALU8,,,,,,,,
+C:/XJTU COMPARCH/project_3/project_1/project_1.srcs/sources_1/new/11.v,1730229559,verilog,,C:/XJTU COMPARCH/project_3/project_1/project_1.srcs/sources_1/new/12.v,,Decoder38,,,,,,,,
+C:/XJTU COMPARCH/project_3/project_1/project_1.srcs/sources_1/new/12.v,1730228409,verilog,,C:/XJTU COMPARCH/project_3/project_1/project_1.srcs/sources_1/new/13.v,,ADD,,,,,,,,
+C:/XJTU COMPARCH/project_3/project_1/project_1.srcs/sources_1/new/13.v,1730228437,verilog,,C:/XJTU COMPARCH/project_3/project_1/project_1.srcs/sources_1/new/14.v,,SUB,,,,,,,,
+C:/XJTU COMPARCH/project_3/project_1/project_1.srcs/sources_1/new/14.v,1730228291,verilog,,C:/XJTU COMPARCH/project_3/project_1/project_1.srcs/sources_1/new/15.v,,SLT,,,,,,,,
+C:/XJTU COMPARCH/project_3/project_1/project_1.srcs/sources_1/new/15.v,1730228234,verilog,,C:/XJTU COMPARCH/project_3/project_1/project_1.srcs/sources_1/new/4.v,,SLL,,,,,,,,
+C:/XJTU COMPARCH/project_3/project_1/project_1.srcs/sources_1/new/17.v,1730227478,verilog,,,,sim_ALU,,,,,,,,
+C:/XJTU COMPARCH/project_3/project_1/project_1.srcs/sources_1/new/4.v,1729993958,verilog,,C:/XJTU COMPARCH/project_3/project_1/project_1.srcs/sources_1/new/8.v,,fulladder_4,,,,,,,,
+C:/XJTU COMPARCH/project_3/project_1/project_1.srcs/sources_1/new/8.v,1729995386,verilog,,C:/XJTU COMPARCH/project_3/project_1/project_1.srcs/sources_1/new/17.v,,fulladder_32,,,,,,,,

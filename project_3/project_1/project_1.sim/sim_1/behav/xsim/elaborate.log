@@ -1,0 +1,24 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx2019/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto c290007d7be94312bfe1d6883c62a455 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_ALU_behav xil_defaultlib.sim_ALU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'Ci' [C:/XJTU COMPARCH/project_3/project_1/project_1.srcs/sources_1/new/12.v:14]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/XJTU COMPARCH/project_3/project_1/project_1.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Decoder38
+Compiling module xil_defaultlib.fulladder_1
+Compiling module xil_defaultlib.fulladder_4
+Compiling module xil_defaultlib.fulladder_32
+Compiling module xil_defaultlib.ADD
+Compiling module xil_defaultlib.SUB
+Compiling module xil_defaultlib.SLT
+Compiling module xil_defaultlib.SLL
+Compiling module xil_defaultlib.ALU8
+Compiling module xil_defaultlib.sim_ALU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sim_ALU_behav

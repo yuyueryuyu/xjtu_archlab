@@ -1,0 +1,18 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/XJTU COMPARCH/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/XJTU COMPARCH/project_1/project_1.srcs/sim_1/new/sim_decoder24.v,1728681424,verilog,,,,sim_decoder24,,,,,,,,
+C:/XJTU COMPARCH/project_1/project_1.srcs/sim_1/new/sim_decoder38.v,1728681429,verilog,,,,sim_decoder38,,,,,,,,
+C:/XJTU COMPARCH/project_1/project_1.srcs/sim_1/new/sim_encoder83.v,1728623233,verilog,,,,sim_encoder83,,,,,,,,
+C:/XJTU COMPARCH/project_1/project_1.srcs/sim_1/new/sim_mig.v,1728542145,verilog,,,,sim_mig,,,,,,,,
+C:/XJTU COMPARCH/project_1/project_1.srcs/sim_1/new/sim_mux41.v,1728620925,verilog,,,,sim_mux41,,,,,,,,
+C:/XJTU COMPARCH/project_1/project_1.srcs/sources_1/new/decoder24.v,1728625462,verilog,,C:/XJTU COMPARCH/project_1/project_1.srcs/sim_1/new/sim_decoder24.v,,decoder24,,,,,,,,
+C:/XJTU COMPARCH/project_1/project_1.srcs/sources_1/new/decoder38.v,1728625734,verilog,,C:/XJTU COMPARCH/project_1/project_1.srcs/sim_1/new/sim_decoder38.v,,decoder38,,,,,,,,
+C:/XJTU COMPARCH/project_1/project_1.srcs/sources_1/new/encoder.v,1728622287,verilog,,C:/XJTU COMPARCH/project_1/project_1.srcs/sources_1/new/encoder83_case.v,,encoder83_assign,,,,,,,,
+C:/XJTU COMPARCH/project_1/project_1.srcs/sources_1/new/encoder83_case.v,1728623427,verilog,,C:/XJTU COMPARCH/project_1/project_1.srcs/sources_1/new/pre_encoder83_case.v,,encoder83_case,,,,,,,,
+C:/XJTU COMPARCH/project_1/project_1.srcs/sources_1/new/mig.v,1728540847,verilog,,C:/XJTU COMPARCH/project_1/project_1.srcs/sim_1/new/sim_mig.v,,mig,,,,,,,,
+C:/XJTU COMPARCH/project_1/project_1.srcs/sources_1/new/mux41.v,1728620728,verilog,,C:/XJTU COMPARCH/project_1/project_1.srcs/sim_1/new/sim_mux41.v,,mux41,,,,,,,,
+C:/XJTU COMPARCH/project_1/project_1.srcs/sources_1/new/pre_encoder83_case.v,1728623419,verilog,,C:/XJTU COMPARCH/project_1/project_1.srcs/sources_1/new/pre_encoder83_if.v,,pre_encoder83_case,,,,,,,,
+C:/XJTU COMPARCH/project_1/project_1.srcs/sources_1/new/pre_encoder83_if.v,1728622855,verilog,,C:/XJTU COMPARCH/project_1/project_1.srcs/sim_1/new/sim_encoder83.v,,pre_encoder83_if,,,,,,,,

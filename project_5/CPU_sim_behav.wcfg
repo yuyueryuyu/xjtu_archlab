@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="CPU_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="CPU_sim" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="118401fs"></ZoomEndTime>
+      <Cursor1Time time="122711fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="65"></NameColumnWidth>
+      <ValueColumnWidth column_width="70"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/CPU_sim/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_sim/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_sim/CPU_1/X1" type="array">
+      <obj_property name="ElementShortName">X1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">X1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_sim/CPU_1/X2" type="array">
+      <obj_property name="ElementShortName">X2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">X2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_sim/CPU_1/X3" type="array">
+      <obj_property name="ElementShortName">X3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">X3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_sim/CPU_1/X4" type="array">
+      <obj_property name="ElementShortName">X4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">X4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_sim/CPU_1/PC_out" type="array">
+      <obj_property name="ElementShortName">PC_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_sim/CPU_1/instr_IF" type="array">
+      <obj_property name="ElementShortName">instr_IF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_IF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_sim/CPU_1/instr_ID" type="array">
+      <obj_property name="ElementShortName">instr_ID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_ID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_sim/CPU_1/instr_EX" type="array">
+      <obj_property name="ElementShortName">instr_EX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_EX[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_sim/CPU_1/instr_M" type="array">
+      <obj_property name="ElementShortName">instr_M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_M[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_sim/CPU_1/instr_WB" type="array">
+      <obj_property name="ElementShortName">instr_WB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_WB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_sim/CPU_1/DMem_1/miss" type="logic">
+      <obj_property name="ElementShortName">miss</obj_property>
+      <obj_property name="ObjectShortName">miss</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_sim/CPU_1/DMem_1/Cache_1/writeback" type="logic">
+      <obj_property name="ElementShortName">writeback</obj_property>
+      <obj_property name="ObjectShortName">writeback</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_sim/CPU_1/DMem_1/mem_data" type="array">
+      <obj_property name="ElementShortName">mem_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_sim/CPU_1/DMem_1/cache_data" type="array">
+      <obj_property name="ElementShortName">cache_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cache_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_sim/CPU_1/DMem_1/Cache_1/way_hit" type="array">
+      <obj_property name="ElementShortName">way_hit[31:0]</obj_property>
+      <obj_property name="ObjectShortName">way_hit[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_sim/CPU_1/DMem_1/Cache_1/replace_way" type="array">
+      <obj_property name="ElementShortName">replace_way[31:0]</obj_property>
+      <obj_property name="ObjectShortName">replace_way[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_sim/CPU_1/DMem_1/Cache_1/block_data" type="array">
+      <obj_property name="ElementShortName">block_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">block_data[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_sim/CPU_1/DMem_1/Cache_1/write_back_data" type="array">
+      <obj_property name="ElementShortName">write_back_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">write_back_data[127:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,30 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/BranchComp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BranchComp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/CPU_Datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_Datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/ControlLogic_EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlLogic_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/ControlLogic_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlLogic_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/DMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/FourWaySACache.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FourWaySACache
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/IMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/MainDsc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MainDsc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/MainDsc_EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MainDsc_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/RAM_4Kx32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM_4Kx32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_5/project_5.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/XJTU COMPARCH/project_5/project_5.srcs/sim_1/new/CPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_sim

@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_3.srcs/sources_1/new/fulladder_1.v" \
+"../../../../project_3.srcs/sources_1/new/fulladder_16.v" \
+"../../../../project_3.srcs/sources_1/new/fulladder_32.v" \
+"../../../../project_3.srcs/sources_1/new/fulladder_4.v" \
+"../../../../project_3.srcs/sources_1/new/fulladder_lookahead.v" \
+"../../../../project_3.srcs/sim_1/new/sim_fulladder_32.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

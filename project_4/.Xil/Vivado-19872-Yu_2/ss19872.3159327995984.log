@@ -1,0 +1,11 @@
+srcscan starts
+INFO: analyzing module ALU (VERI-9002)
+INFO: analyzing module RegFile (VERI-9002)
+INFO: analyzing module ImmGen (VERI-9002)
+INFO: analyzing module IMem (VERI-9002)
+INFO: analyzing module CPU_Datapath (VERI-9002)
+C:/Users/�࿭Խ/AppData/Local/Temp/VivadoEditorAssist8064443473579355005.tmp(34): WARNING: syntax error near initial (VERI-1137)
+C:/Users/�࿭Խ/AppData/Local/Temp/VivadoEditorAssist8064443473579355005.tmp(34): ERROR: Verilog 2000 keyword initial used in incorrect context (VERI-2344)
+C:/Users/�࿭Խ/AppData/Local/Temp/VivadoEditorAssist8064443473579355005.tmp(40): WARNING: syntax error near endmodule (VERI-1137)
+C:/Users/�࿭Խ/AppData/Local/Temp/VivadoEditorAssist8064443473579355005.tmp(40): ERROR: Verilog 2000 keyword endmodule used in incorrect context (VERI-2344)
+srcscan exits with return value 0
